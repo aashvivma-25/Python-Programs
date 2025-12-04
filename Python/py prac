@@ -1,0 +1,15 @@
+season=input("Hello Vijayalakshmi! What is your fave season")
+season1="summer"
+season2="winter"
+season3="fall"
+season4="spring"
+if season.upper()==season1.upper():
+    print("you love to swim")
+elif season.lower()==season2.lower():
+    print("ski")
+elif season.lower()==season3.lower():
+    print("indoor games")
+elif season.upper()==season4.upper():
+    print("hiking")
+else:
+    print("please enter a valid season name, for Autumn or monsoon please enter as fall")

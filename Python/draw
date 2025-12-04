@@ -1,0 +1,13 @@
+import turtle
+t = turtle.Turtle()
+
+t.speed(30)
+t.pensize(3)
+
+t.pendown()
+for i in range(59):
+    t.forward(156)
+    t.right(238)
+t.penup()
+
+turtle.done()
